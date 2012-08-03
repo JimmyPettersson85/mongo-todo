@@ -10,3 +10,7 @@ GET api/todos/:id - Fetches the document with id :id.
 POST api/todos - Creates a new todo document.  
 PUT api/todos/:id - Updates the document with id :id  
 DELETE api/todos/:id - Deletes the document with id :id  
+
+
+POST and PUT requests expects a parameter <i>message</i> (the todo text)  
+and an optional parameter <i>done</i> (true/false).
